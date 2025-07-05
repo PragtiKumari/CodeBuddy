@@ -10,8 +10,8 @@ CodeBuddy is a cross-platform Chrome Extension designed to guide students, begin
 
 - **AI-Powered Hints** – Get dynamic, personalized hints using Google's Gemini API.
 - **Smart Caching** – Hints are saved to the database to improve performance and reuse.
-- **Fallback Tips** – Even when offline or rate-limited, CodeBuddy provides intelligent, topic-based fallback advice.
-- **Platform Compatibility** – Works across 6 major coding platforms (see below).
+- **Fallback Safe** – Even when offline or rate-limited, CodeBuddy provides intelligent, topic-based fallback advice.
+- **Platform Compatibility** – Works across 6 major coding platforms.
 - **No Login Needed** – Just install, code, and get hints right in the editor!
 - **Dark/Light Mode Friendly** – UI adjusts gracefully with coding platform theme.
 
@@ -86,18 +86,36 @@ CodeBuddy/
 
 ---
 
+# Screenshots 
+![image](https://github.com/user-attachments/assets/6dec4e4f-ebe3-4649-9fba-40acdafef3d2)
+👆 Available on Chrome extensions.
+
+![image](https://github.com/user-attachments/assets/52d4fc41-14bd-4bf2-b46d-696d6f890d7c)
+👆 A pop-up '💡show hint' on the top-right side of screen ready to give you hints, making your coding journey easier.
+
+![image](https://github.com/user-attachments/assets/e4f02c91-57b9-4333-955b-f8368794d8d6)
+👆 The hint.
+
+---
+
 # Backend Setup
-bash
-cd backend
-npm install
-npm run dev
+> bash
+
+> cd backend
+
+> npm install
+
+> npm run dev
 
 ---
 
 # Chrome Extension
 Open Chrome and go to chrome://extensions/
+
 Enable "Developer Mode"
+
 Click "Load Unpacked" and select the CodeBuddy/ root directory.
+
 Done! Open any supported platform and start coding with hints.
 
 ---
