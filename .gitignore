@@ -1,0 +1,88 @@
+# CodeBuddy Project .gitignore
+
+# Node.js dependencies
+node_modules/
+
+# Build / dist folders
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+
+# System junk
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache
+.npm/
+
+# VSCode settings
+.vscode/
+.history/
+
+# Crash reports
+report.[0-9]*.[0-9]*.json
+
+# Editor backups & temp files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Chrome extension specific
+*.crx
+chrome-extension/
+
+# MongoDB dump/data folders
+mongodb/
+dump/
+*.lock
+
+# JetBrains IDEs (like WebStorm, IntelliJ)
+.idea/
+
+# Jest / Testing
+jest.config.js
+test-results/
+*.test.js.snap
+
+# Security (keys/tokens if accidentally added)
+firebase.json
+firebase-debug.log
+firebase-messaging-sw.js
+*.pem
+*.key
+
+# TypeScript support (future-proofing)
+*.tsbuildinfo
+
+# OS Trash
+.Trash-*
+
+# Uploaded images / user uploads (if applicable)
+uploads/
+screenshots/
+media/
+
+# Static cache or session storage (optional)
+.cache/
+.sessions/
+
+# Lock files (add/remove depending on your workflow)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
