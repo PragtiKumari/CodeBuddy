@@ -1,4 +1,4 @@
-# CodeBuddy – Your real-time coding CodeBuddy for LeetCode, GFG, and more!
+# CodeBuddy – Your real-time codeing Buddy for LeetCode, GFG, and more!
 
 CodeBuddy is a cross-platform Chrome Extension designed to guide students, beginners, and developers during live problem-solving sessions on popular coding platforms like **LeetCode**, **GeeksforGeeks**, **Codeforces**, **CodeChef**, **HackerRank**, and **InterviewBit**.
 
