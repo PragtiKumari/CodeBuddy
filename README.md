@@ -90,11 +90,14 @@ CodeBuddy/
 ![image](https://github.com/user-attachments/assets/6dec4e4f-ebe3-4649-9fba-40acdafef3d2)
 👆 Available on Chrome extensions.
 
+
 ![image](https://github.com/user-attachments/assets/52d4fc41-14bd-4bf2-b46d-696d6f890d7c)
 👆 A pop-up '💡show hint' on the top-right side of screen ready to give you hints, making your coding journey easier.
 
+
 ![image](https://github.com/user-attachments/assets/e4f02c91-57b9-4333-955b-f8368794d8d6)
 👆 The hint.
+
 
 ---
 
