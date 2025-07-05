@@ -2,35 +2,35 @@
 
 CodeBuddy is a cross-platform Chrome Extension designed to guide students, beginners, and developers during live problem-solving sessions on popular coding platforms like **LeetCode**, **GeeksforGeeks**, **Codeforces**, **CodeChef**, **HackerRank**, and **InterviewBit**.
 
-> ✨ Think of it like that coder friend who never gives away the answer... but always knows how to nudge you in the right direction 😉
+> Think of it like that coder friend who never gives away the answer... but always knows how to nudge you in the right direction.
 
 ---
 
-# 🌟 Features
+# Features
 
-- 🧠 **AI-Powered Hints** – Get dynamic, personalized hints using Google's Gemini API.
-- 💾 **Smart Caching** – Hints are saved to the database to improve performance and reuse.
-- 💡 **Fallback Tips** – Even when offline or rate-limited, CodeBuddy provides intelligent, topic-based fallback advice.
-- 🧩 **Platform Compatibility** – Works across 6 major coding platforms (see below).
-- 🔒 **No Login Needed** – Just install, code, and get hints right in the editor!
-- 🌗 **Dark/Light Mode Friendly** – UI adjusts gracefully with coding platform theme.
+- **AI-Powered Hints** – Get dynamic, personalized hints using Google's Gemini API.
+- **Smart Caching** – Hints are saved to the database to improve performance and reuse.
+- **Fallback Tips** – Even when offline or rate-limited, CodeBuddy provides intelligent, topic-based fallback advice.
+- **Platform Compatibility** – Works across 6 major coding platforms (see below).
+- **No Login Needed** – Just install, code, and get hints right in the editor!
+- **Dark/Light Mode Friendly** – UI adjusts gracefully with coding platform theme.
 
 ---
 
-# 🛠 Supported Platforms
+# Supported Platforms
 
 | Platform       | Status   |
 |----------------|----------|
-| ✅ LeetCode     | Fully functional |
-| ✅ GeeksforGeeks | Available (Fallback enabled) |
-| ✅ Codeforces   | Available (Fallback enabled) |
-| ✅ CodeChef     | Available (Fallback enabled) |
-| ✅ HackerRank   | Available (Fallback enabled) |
-| ✅ InterviewBit | Available (Fallback enabled) |
+|   LeetCode     | Fully functional |
+|  GeeksforGeeks | Available (Fallback enabled) |
+|   Codeforces   | Available (Fallback enabled) |
+|   CodeChef     | Available (Fallback enabled) |
+|   HackerRank   | Available (Fallback enabled) |
+|   InterviewBit | Available (Fallback enabled) |
 
 ---
 
-# 🤖 Tech Stack
+# Tech Stack
 **Frontend**: HTML, CSS, JavaScript
 **Extension API**: Chrome Extension v3
 **Backend**: Node.js, Express, MongoDB, Gemini API
@@ -38,7 +38,7 @@ CodeBuddy is a cross-platform Chrome Extension designed to guide students, begin
 
 ---
 
-# 🧩 Extension Structure
+# Extension Structure
 CodeBuddy/
 ├── .gitignore
 ├── backend/
@@ -76,7 +76,7 @@ CodeBuddy/
 
 ---
 
-# 🧠 How It Works
+# How It Works
 1. Extracts the current problem title from the platform.
 2. Sends the title to backend API: `/api/hint`.
 3. Backend:
@@ -86,7 +86,7 @@ CodeBuddy/
 
 ---
 
-# 💻 Backend Setup
+# Backend Setup
 bash
 cd backend
 npm install
@@ -94,7 +94,7 @@ npm run dev
 
 ---
 
-# 🧩 Chrome Extension
+# Chrome Extension
 Open Chrome and go to chrome://extensions/
 Enable "Developer Mode"
 Click "Load Unpacked" and select the CodeBuddy/ root directory.
@@ -102,7 +102,7 @@ Done! Open any supported platform and start coding with hints.
 
 ---
 
-# 🔮 Future Plans (Stage 2)
+# Future Plans (Stage 2)
 
 Coming soon:
 
@@ -116,7 +116,9 @@ Coming soon:
 # 🧑‍💻 Author
 Pragati Kumari
 B.Tech in ECE | Passionate about building tools that solve real world problems
+
 🔗 LinkedIn: linkedin.com/in/pragati-kumari-p16
+
 📫 Email: btech15110.22@bitmesra.ac.in
 
 
